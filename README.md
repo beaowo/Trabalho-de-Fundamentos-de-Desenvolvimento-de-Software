@@ -1,6 +1,5 @@
 Este repositório contém o trabalho da disciplina Fundamentos de Desenvolvimento de Software, desenvolvido por Beatriz Feitosa. O projeto consiste em uma página web simples criada com HTML, CSS e JavaScript, atendendo aos requisitos da atividade prática da disciplina.
 
-📄 Sobre o Projeto
 A página inclui os seguintes elementos:
 
 Um título com meu nome
