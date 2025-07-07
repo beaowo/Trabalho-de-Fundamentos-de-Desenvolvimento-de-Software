@@ -48,7 +48,7 @@ h1 {
 
 .link-musica:hover {
   color: rgb(48, 129, 37);
-  /* cor rosa ao passar o mouse */
+  /* Cor rosa ao passar o mouse */
 }
 
 .container-tabela h4 {
@@ -70,7 +70,7 @@ h1 {
   font-weight: bold;
 }
 
-/* borda horizontal entre linhas */
+/* Borda horizontal entre linhas */
 .tabela-paises tr {
   border-bottom: 1px solid #000000;
 }
@@ -79,7 +79,7 @@ h1 {
   border-bottom: none;
 }
 
-/* borda vertical entre colunas */
+/* Borda vertical entre colunas */
 .tabela-paises td {
   padding: 15px;
   vertical-align: top;
@@ -91,7 +91,7 @@ h1 {
   border-right: none;
 }
 
-/* legenda */
+/* Legenda */
 .tabela-paises caption {
   caption-side: top;
   padding: 12px 0;
