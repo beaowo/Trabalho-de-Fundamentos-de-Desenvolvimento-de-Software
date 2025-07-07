@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(203, 230, 207);
+  /* Fonte retirada do Google Fonts */
+  font-family: 'Comfortaa', sans-serif;
+
+}
+
+h1 {
+  background-color: rgba(84, 56, 45, 0.9);
+  color: #f0e8e0;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px 0;
+  margin: 0 100px;
+}
+
+/* Alinhando Sobre mim com a tabela de países */
+
+.sobre-e-tabela {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 100px 0 100px;
+  gap: 50px;
+}
+
+.caixa-texto {
+  background-color: rgba(0, 51, 0, 0.4);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  color: black;
+}
+
+.caixa-texto p {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.link-musica {
+  color: #500b0b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-musica:hover {
+  color: rgb(48, 129, 37);
+  /* cor rosa ao passar o mouse */
+}
+
+.container-tabela h4 {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+/* Estilo da tabela */
+.tabela-paises {
+  border-collapse: collapse;
+  width: 400px;
+  background-color: rgba(0, 51, 0, 0.4);
+  border-radius: 12px;
+  overflow: hidden;
+  color: black;
+  font-weight: bold;
+}
+
+/* borda horizontal entre linhas */
+.tabela-paises tr {
+  border-bottom: 1px solid #000000;
+}
+
+.tabela-paises tr:last-child {
+  border-bottom: none;
+}
+
+/* borda vertical entre colunas */
+.tabela-paises td {
+  padding: 15px;
+  vertical-align: top;
+  border-right: 1px solid #543b2f;
+}
+
+
+.tabela-paises td:last-child {
+  border-right: none;
+}
+
+/* legenda */
+.tabela-paises caption {
+  caption-side: top;
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.tabela-paises h4 {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+.tabela-paises p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  color: #000000;
+  text-align: center;
+}
+
+.tabela-paises img {
+  max-width: 150px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Lista de Hobbies e Gif */
+.caixa-lista-e-imagem {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 70px 0 0 100px;
+}
+
+.caixa-lista {
+  background-color: rgba(0, 51, 0, 0.4);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.caixa-lista ul {
+  padding-left: 20px;
+}
+
+.caixa-lista li {
+  margin-bottom: 8px;
+}
+
+.hobby-img {
+  max-width: 380px;
+  border-radius: 12px;
+  object-fit: cover;
+}

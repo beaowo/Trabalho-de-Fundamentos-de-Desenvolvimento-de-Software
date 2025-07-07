@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="imagens/plantinha.png" type="image/png" sizes="32x32" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Primeira Página</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Beatriz Feitosa - Minha Primeira Página</h1>
+
+  <div class="sobre-e-tabela">
+    <div class="caixa-texto">
+      <h2>Sobre mim</h2>
+      <p>
+        Me chamo Beatriz, tenho 26 anos e moro em Londrina, Paraná, mas sou natural de São Paulo capital.
+        Atualmente, estou cursando Engenharia de Software na Uninter e trabalho como suporte backoffice na empresa Rolê
+        In.
+      </p>
+      <p>
+        Tenho me interessado bastante por áreas como desenvolvimento web e inteligência artificial e estou animada
+        para explorar mais sobre essas áreas.
+      <p>
+        Essa é minha música favorita:
+        <a href="https://www.youtube.com/watch?v=rZLbUIa7exE" target="_blank" class="link-musica">
+          clique aqui para ouvir
+        </a>
+      </p>
+      <button onclick="fraselivro()">Frase do meu livro favorito</button>
+      <p id="mensagem-frase" style="display: none; font-weight: bold;">
+        "Todos temos luz e trevas dentro de nós. O que nos define é o lado com o qual escolhemos agir." – Sirius Black
+      </p>
+
+    </div>
+
+    <div class="container-tabela">
+      <h4>Países que eu gostaria de visitar</h4>
+      <table class="tabela-paises">
+        <tr>
+          <td>
+            <h4>Islândia</h4>
+            <p>geleiras, vulcões, aurora.</p>
+          </td>
+          <td><img src="imagens/islandia.png" alt="Islândia" /></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Itália</h4>
+            <p>história, gastronomia, arte.</p>
+          </td>
+          <td><img src="imagens/italia.png" alt="Itália" /></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Escócia</h4>
+            <p>castelos, cultura, natureza.</p>
+          </td>
+          <td><img src="imagens/escocia.png" alt="Escócia" /></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="caixa-lista-e-imagem">
+    <div class="caixa-lista">
+      <h3>Meus hobbies favoritos</h3>
+      <ul>
+        <li>Cozinhar</li>
+        <li>Academia</li>
+        <li>Jogos online</li>
+      </ul>
+    </div>
+    <img src="imagens/cozinha.gif" alt="Cozinhar" class="hobby-img" />
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
